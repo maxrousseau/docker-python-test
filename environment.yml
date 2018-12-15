@@ -1,0 +1,17 @@
+name: docker-densys-env
+channels:
+  - menpo
+  - conda-forge
+  - conda-forge/label/broken
+  - default
+dependencies:
+  - matplotlib
+  - numpy
+  - numpy-base
+  - opencv
+  - pandas
+  - pytest
+  - scikit-image
+  - scipy
+  - dlib
+
